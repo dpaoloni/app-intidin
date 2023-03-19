@@ -1,1 +1,123 @@
 /* You can add global styles to this file, and also import other style files */
+.contenedor {
+    border-radius: 32px;
+     margin: 10px 10px;
+     padding: 20px;
+     border: solid 1px ;
+     border-color: #0a66c2;
+ }
+ 
+ .contenedor#contenedorportada  {
+ padding: 0;
+ }
+ 
+ div#perfil-portada{
+     display: flex;
+     z-index: 1;
+ }
+ 
+ div#perfil-portada img{
+ width: 100%;
+ border-radius: 32px 32px 0  0;
+ }
+ 
+ #info{
+     padding: 16px;
+ }
+ 
+ .img-perfil{
+     border-radius: 50%;
+     width: 150px;
+     height: 150px;
+     margin-top: -90px;
+     z-index: 1;
+ }
+ 
+ .editarfoto {
+     display: flex;
+     margin-top: -25px;  
+     margin-bottom: 20px;
+ 
+ }
+ 
+  .editarfoto  a i {
+     margin-left: 150px;
+     
+ }
+ 
+ .info-contacto span{
+     font-size: 1rem;
+     font-weight: 400;
+ }
+ .info-contacto span a{
+     color: #0a66c2;
+     touch-action: manipulation;
+     text-decoration: none;
+  }
+ 
+ div#info-cia{
+     font-size: 1.2rem;
+     font-weight: 400;
+     line-height: 1.25;
+ }
+ 
+ 
+ div#info-data {
+     display: flex;
+     justify-content: space-between;
+     
+ }/*achico la imagen de la lista*/
+ 
+ div#info-data h1{
+     font-size: 1.8rem;
+     display: inline;
+     font-weight: 500;
+     line-height: 1.25;
+     word-wrap: break-word;
+     /* word-break: ; */
+ }
+ 
+ div#info-data ul#info-detalles {
+     width: 240px ;
+     list-style: none;/*saca los puntitos*/
+     flex-shrink: 0;
+ }
+ 
+ div#info-data ul#info-detalles li a {
+     color: black ;
+     display: flex;
+     text-decoration: none;
+ }
+ 
+ div#info-data ul#info-detalles li a h2 {
+     font-size: 1.5rem;
+     font-weight: 500;
+     align-self: center;;
+     vertical-align: baseline;
+ }
+ 
+ div#info-data ul#info-detalles li a img {
+     width: 32px;
+     height: 32px;
+    margin-right:8px ;
+ }
+ 
+ div#info-accion{
+     display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px;
+ }
+ div#info-accion button {
+  margin-right: 8px ;
+ }
+ 
+ .contenedor-titulo-acercade  {
+     display: flex ;
+    justify-content: space-between;
+    /* align-items: center;    */
+ }
+ .btn-edit-conteiner {
+     margin-left: 16px;
+  
+  }
+ 
