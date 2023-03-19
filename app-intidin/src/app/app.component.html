@@ -19,88 +19,20 @@
 </head>
 
 <body>
-  <div class="contenedor" id="contenedorportada">
-    <div id="perfil-portada"><img src="img/Portada.png" alt="impportada"></div>
-    <div id="info">
-      <div class="info-img">
-        <img class=img-perfil src="img/Denise1.jpg.jpeg" alt="fotoperfil">
-        <div class="editarfoto"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
-      </div>
-      <div id=info-data>
-        <div>
-          <h1>Denise Paoloni</h1>
-          <div id="info-cia">Contador Publico </div>
-          <div class="info-contacto">
-            <span> Rosario, Santa Fe (Argentina)</span>
-            <span> <a href="#">Informacion de contacto </a></span>
-          </div>
-        </div>
-        <div>
-          <ul id="info-detalles">
-            <li><a href="https://unr.edu.ar/">
-                <img src="img/unr.png" alt="UNR">
-                <h2> UNR</h2>
-              </a></li>
-            <li><a href="https://utn.edu.ar/es/">
-                <img src=" img/UTN.jpg" alt="UTN">
-                <h2> UTN</h2>
-              </a></li>
-          </ul>
-        </div>
-      </div>
-      <div id="info-accion">
-        <button type="button" class="btn btn-primary"> Tengo Interés en</button>
-        <button type="button" class="btn btn-primary"> Añadir Sección</button>
-        <button type="button" class="btn btn-primary"> Más</button>
-      </div>
-    </div>
-  </div>
+  <app-encabezado></app-encabezado>
   <main>
-    <div class="contenedor">
-      <div class="contenedor-titulo-acercade">
-        <h2>Acerca de</h2>
-        <div class="btn-edit" onclick="cambiar_parrafo ()">
-          <!--  1el onclick llama  a la funcion cambiar cambiar_parrafo  -->
-          <a href="#" class="btn-ok">
-            <i class="fa fa-pen"></i>
-          </a>
-        </div>
-      </div>
-      <div>
-        <p id="text-acercade">Soy una persona colaborativa, con espirutu a la mejora continua</p>
-      </div>
+    <app-acerca-de></app-acerca-de>
+    <app-experiencia-y-educacion></app-experiencia-y-educacion>
+    <app-aptitudes></app-aptitudes>
+    <app-logros></app-logros>
 
-      <div>
-        <input id="edit-acercade" type="text" oninput="funcion2(this.value)" style="display: none">
-      </div>
-    </div>
-    
-    <!-- <input type="file" id="archivo" onchange="showFile(this)" -->
-
-    <div class="contenedor">
-      <h2>Experiencia</h2>
-
-      <h2>Educación</h2>
-    </div>
-
-    <div class="contenedor">
-      <h2>Aptitudes y Validaciones</h2>
-    </div>
-
-    <div class="contenedor">
-      <h2>Logros</h2>
-
-    </div>
 
 
 
   </main>
-
-  //funcion que cambia el estilo del imput a visible
-  //toma el valor del texto del parrafo con id "text-acercade" lo muestra en consola
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
   <script src="objetos.js"></script>
   <script>
 
@@ -125,7 +57,7 @@
       }
     });
   </script>
-  
+
 </body>
 
 </html>
