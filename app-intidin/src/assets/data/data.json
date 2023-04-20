@@ -1,5 +1,27 @@
 {
     "nombre": "Denise Paoloni",
-    "posicion": "Contador Publico",
-    "localidad":"Rosario, Santa Fe (Argentina)"
+    "posicion": "Analista Contable Sinior",
+    "localidad":"Rosario, Santa Fe (Argentina)",
+    "company":{
+        "name": "BLD",
+        "img":"https://bldmas.com.ar/wp-content/uploads/2022/07/logo-navbar@2x.png",
+        "url":"https://bldmas.com.ar/"
+    },
+    "school":{
+        "name":"Universidad Nacional de Rosario",
+        "img":"https://unr.edu.ar/wp-content/uploads/2021/12/logo-contorno-uiversidad-blanco-fondo-transp.png",
+        "url":"https://unr.edu.ar/"
+    },
+    "ubication":"Rosario,Santa Fe, Argentina",
+    "about": "Contadora, Estudiando Licenciatura en administracio, y programación",
+    "experiencia":[{
+        "posicion": "Analista Semi Sinior impositiva",
+        "company":"Felicevich y Asociados",
+        "img":"https://www.felicevich.com.ar/images/logo/logo.png",
+        "mode": "jornada Completa",
+        "start":"01-01-01",
+        "end":"01-01-01",
+        "timeElapsed"
+    }]
+        
 }
