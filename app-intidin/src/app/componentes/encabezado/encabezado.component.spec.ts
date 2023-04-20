@@ -18,6 +18,6 @@ describe('EncabezadoComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(component).toBeTruthy().subscribe(data=>{console.log(data)});
   });
 });
