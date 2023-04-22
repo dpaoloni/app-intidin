@@ -1,13 +1,17 @@
 <div class="contenedor" id="contenedorportada">
-    <div id="perfil-portada"><img src="img/Portada.png" alt="impportada"></div>
+    <div id="perfil-portada">
+      <img [src]="miporfolio.backImage"
+       alt="imgportada"></div>
     <div id="info">
       <div class="info-img">
-        <img class=img-perfil src="img/Denise1.jpg.jpeg" alt="fotoperfil">
+        <img class=img-perfil 
+        [src]="miporfolio.company.img" 
+        alt="fotoperfil">
         <div class="editarfoto"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
       </div>
       <div id=info-data>
         <div>
-          <h1>{{miporfolio.nombre}}</h1>
+          <h1>{{miporfolio.name}}</h1>
           <div id="info-cia">{{miporfolio.posicion}} </div>
           <div class="info-contacto">
             <span>{{miporfolio.localidad}}</span>
@@ -23,14 +27,13 @@
             <li><a href="https://utn.edu.ar/es/">
                 <img src=" img/UTN.jpg" alt="UTN">
                 <h2> UTN</h2>
-              </a></li>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
       <div id="info-accion">
-        <button type="button" class="btn btn-primary"> Tengo Interés en</button>
-        <button type="button" class="btn btn-primary"> Añadir Sección</button>
-        <button type="button" class="btn btn-primary"> Más</button>
-      </div>
+       <app-botones></app-botones>
+        </div>
     </div>
   </div>

@@ -9,6 +9,7 @@ import { ExperienciaYEducacionComponent } from './componentes/experiencia-y-educ
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { LogrosComponent } from './componentes/logros/logros.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BotonesComponent } from './componentes/botones/botones.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     AcercaDeComponent,
     ExperienciaYEducacionComponent,
     AptitudesComponent,
-    LogrosComponent
+    LogrosComponent,
+    BotonesComponent
   ],
   imports: [
     BrowserModule,

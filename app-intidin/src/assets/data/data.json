@@ -1,5 +1,6 @@
 {
-    "nombre": "Denise Paoloni",
+    "name": "Denise Paoloni",
+    "backImage":"https://img.freepik.com/foto-gratis/clips-papel-teclado-ordenador-portatil-bloc-notas-espiral-notas-adhesivas-escritorio-blanco-espacio-escribir-texto_23-2148041896.jpg?w=996&t=st=1682136894~exp=1682137494~hmac=df5881a71919e1b812deb8842836cc5acc60bbbc591beb57130bbd55e32b7b18",
     "posicion": "Analista Contable Sinior",
     "localidad":"Rosario, Santa Fe (Argentina)",
     "company":{
@@ -14,14 +15,41 @@
     },
     "ubication":"Rosario,Santa Fe, Argentina",
     "about": "Contadora, Estudiando Licenciatura en administracio, y programación",
-    "experiencia":[{
+    "experience":[{
         "posicion": "Analista Semi Sinior impositiva",
         "company":"Felicevich y Asociados",
         "img":"https://www.felicevich.com.ar/images/logo/logo.png",
         "mode": "jornada Completa",
         "start":"01-01-01",
         "end":"01-01-01",
-        "timeElapsed"
-    }]
+        "timeElapsed": " 5 años"
+    }],
+    "educacion":[{
+        "school":"UTN",
+        "title":"Bussines inteligent",
+        "img":"https://assets.utnba.centrodeelearning.com/public-api/files/3d4375c16192f87874b4d302da32faa5/images",
+        "start":2021
+    },
+    {
+        "school":"Argentina Programa",
+        "title":"Base de Programacion",
+        "img":"https://www.argentina.gob.ar/sites/default/files/untitled-3-01_2.png",
+        "start":2023 
+    },
+    {
+        "school":"Udemy",
+        "title":"PowerBI",
+        "img":"https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+        "start":2022 ,
+        "finish":2022
+    }
+],
+"aptitudes":[{
+    "name":"Resolucion de Problemas",
+    "progress":75,
+    "confirms":3,
+    "confirmsNames":[{
+        }]
+}]
         
 }
