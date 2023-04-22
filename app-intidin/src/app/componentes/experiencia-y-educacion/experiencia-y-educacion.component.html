@@ -35,5 +35,36 @@
         </div>
     </div>
     <h2>Educación</h2>
+    <div class="btn-edit" onclick="cambiar_parrafo ()">
+
+        <a href="#" class="btn-ok">
+            <i class="fa fa-pen"></i>
+        </a>
+    </div>
+    <div>
+        <ul class="items-list">
+            <li *ngFor="let educacion of educacionLista">
+                <div class="data-container">
+                    <a href="#">
+                        <div class="logo-imagen-container">
+                            <img 
+                             class="logo-image"
+                             [src]="educacion.img"
+                              alt="logo de estudios">
+                        </div>
+                        <div class="ist-info">
+                            <div>
+                                <h3>{{educacion.school}}</h3>
+                                <p>{{educacion.title}}</p>
+                                <p><time>{{educacion.start}}</time>- <time>{{educacion.finish}}</time></p>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
 
 </div>
