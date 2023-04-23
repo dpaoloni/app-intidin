@@ -7,9 +7,9 @@ import { Observable } from 'rxjs';
 })
 export class PorfolioService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient){ }
   
   obtenerDatos():Observable<any> {
-    return this.http.get('./assents/data/data.json');
+    return this.http.get('./assets/data/data.json');
 }
 }

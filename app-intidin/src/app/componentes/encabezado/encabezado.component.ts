@@ -7,7 +7,8 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   styleUrls: ['./encabezado.component.css']
 })
 
-export class EncabezadoComponent implements OnInit {
+export class EncabezadoComponent
+implements OnInit {
   miporfolio: any;
 
   constructor(private datosPorfolio: PorfolioService) { }
@@ -17,5 +18,8 @@ export class EncabezadoComponent implements OnInit {
       console.log(data);
       this.miporfolio = data;
     });
+  }
+  toggleAddTask() {
+    console.log("toggleAddTask!");
   }
 }

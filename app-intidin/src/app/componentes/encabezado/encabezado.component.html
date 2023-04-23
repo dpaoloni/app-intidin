@@ -1,6 +1,6 @@
 <div class="contenedor" id="contenedorportada">
     <div id="perfil-portada">
-      <img [src]="miporfolio.backImage"
+      <img src="https://www.canva.com/design/DAFg25aldYs/is4yQQJX8RCiUWhsoL5wrg/edit?utm_content=DAFg25aldYs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
        alt="imgportada"></div>
     <div id="info">
       <div class="info-img">
@@ -21,7 +21,7 @@
         <div>
           <ul id="info-detalles">
             <li><a href="https://unr.edu.ar/">
-                <img src="img/unr.png" alt="UNR">
+                <img [src]="miporfolio.school.img" alt="UNR">
                 <h2> UNR</h2>
               </a></li>
             <li><a href="https://utn.edu.ar/es/">
@@ -33,7 +33,11 @@
         </div>
       </div>
       <div id="info-accion">
-       <app-botones></app-botones>
+       <app-botones
+       color="green"
+       text="Tareas"
+       (btnClick)="toggleAddTask()"
+       ></app-botones>
         </div>
     </div>
   </div>

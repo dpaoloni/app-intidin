@@ -1,8 +1,8 @@
 {
     "name": "Denise Paoloni",
-    "backImage":"https://img.freepik.com/foto-gratis/clips-papel-teclado-ordenador-portatil-bloc-notas-espiral-notas-adhesivas-escritorio-blanco-espacio-escribir-texto_23-2148041896.jpg?w=996&t=st=1682136894~exp=1682137494~hmac=df5881a71919e1b812deb8842836cc5acc60bbbc591beb57130bbd55e32b7b18",
     "posicion": "Analista Contable Sinior",
     "localidad":"Rosario, Santa Fe (Argentina)",
+
     "company":{
         "name": "BLD",
         "img":"https://bldmas.com.ar/wp-content/uploads/2022/07/logo-navbar@2x.png",
@@ -14,7 +14,7 @@
         "url":"https://unr.edu.ar/"
     },
     "ubication":"Rosario,Santa Fe, Argentina",
-    "about": "Contadora, Estudiando Licenciatura en administracio, y programación",
+    "about": " Soy Contadora, estoy terminando la carrera de Licenciatura en administración, y ademas iniciandome en la programación.Soy una persona colaborativa,proactiva, con espirutu a la mejora continua",
     "experience":[{
         "posicion": "Analista Semi Sinior impositiva",
         "company":"Felicevich y Asociados",
@@ -33,13 +33,13 @@
     {
         "school":"Argentina Programa",
         "title":"Base de Programacion",
-        "img":"https://www.argentina.gob.ar/sites/default/files/untitled-3-01_2.png",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiYCtJUdRbw5CYwfR-Ph3Un4NovweJo0zmuhKvYYPseC3QzjIZ0Gb-NRt5jJcFA8m8diM&usqp=CAU",
         "start":2023 
     },
     {
         "school":"Udemy",
         "title":"PowerBI",
-        "img":"https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg",
+        "img":"https://play-lh.googleusercontent.com/oDuTGEHru1KMr3QOfQfPKgIdNnlq3WWQxpBYND23r2a7RVnS1HW0t7dyON86Vn_QhtM=w240-h480-rw",
         "start":2022 ,
         "finish":2022
     }
