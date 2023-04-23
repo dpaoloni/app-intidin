@@ -11,20 +11,20 @@
         </div>
         <div>
             <ul class="items-list">
-                <li *ngFor="let educacion of educacionLista">
+                <li *ngFor="let experiencia of experienciaLista">
                     <div class="data-container">
                         <a href="#">
                             <div class="logo-imagen-container">
                                 <img 
                                  class="logo-image"
-                                 [src]="educacion.img"
+                                 [src]="experiencia.img"
                                   alt="logo de estudios">
                             </div>
                             <div class="ist-info">
                                 <div>
-                                    <h3>{{educacion.school}}</h3>
-                                    <p>{{educacion.title}}</p>
-                                    <p><time>{{educacion.start}}</time>- <time>{{educacion.finish}}</time></p>
+                                    <h3>{{experiencia.school}}</h3>
+                                    <p>{{experiencia.title}}</p>
+                                    <p><time>{{experiencia.start}}</time>- <time>{{experiencia.finish}}</time></p>
                                 </div>
                             </div>
                         </a>
@@ -65,6 +65,4 @@
             </li>
         </ul>
     </div>
-</div>
-
 </div>
