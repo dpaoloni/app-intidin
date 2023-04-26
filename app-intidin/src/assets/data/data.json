@@ -2,10 +2,10 @@
     "name": "Denise Paoloni",
     "posicion": "Analista Contable Sinior",
     "localidad":"Rosario, Santa Fe (Argentina)",
-
+ 
     "company":{
         "name": "BLD",
-        "img":"https://bldmas.com.ar/wp-content/uploads/2022/07/logo-navbar@2x.png",
+        "img":"#",
         "url":"https://bldmas.com.ar/"
     },
     "school":{
@@ -23,6 +23,24 @@
         "start":"01-01-01",
         "end":"01-01-01",
         "timeElapsed": " 5 años"
+    },
+    {
+        "posicion": "Auditor Externo Semi Sinior ",
+        "company":"KPMG",
+        "img":"https://assets.kpmg.com/is/image/kpmg/kpmg-logo-1",
+        "mode": "jornada Completa",
+        "start":"01-01-01",
+        "end":"01-01-01",
+        "timeElapsed": " 1 año y medio "
+    },
+    {
+        "posicion": "Analista Contable ",
+        "company":"BLD SA",
+        "img":"https://media.licdn.com/dms/image/C4D0BAQHj2wvv_6c_4A/company-logo_200_200/0/1519921983664?e=2147483647&v=beta&t=ivGH6g7SIV9p_QCP0rioHZXo74OfNBLUCNYEbud25Xg",
+        "mode": "jornada Completa",
+        "start":"15-09-19",
+        "end":"NOW",
+        "timeElapsed": " 4 años y medio "
     }],
     "educacion":[{
         "school":"UTN",

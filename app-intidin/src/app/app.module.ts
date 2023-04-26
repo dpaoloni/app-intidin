@@ -10,6 +10,7 @@ import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component'
 import { LogrosComponent } from './componentes/logros/logros.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BotonesComponent } from './componentes/botones/botones.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BotonesComponent } from './componentes/botones/botones.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

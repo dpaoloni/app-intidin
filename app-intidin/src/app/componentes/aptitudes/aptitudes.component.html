@@ -2,12 +2,25 @@
 
     <div class="contenedor-titulo">
         <h2>Aptitudes y Validaciones</h2>
-        
+
         <div class="btn-edit" onclick="cambiar_parrafo ()">
 
             <a href="#" class="btn-ok">
                 <i class="fa fa-pen"></i>
             </a>
         </div>
+        <div >
+            <circle-progress
+                [percent]="100"
+                [radius]="100"
+                [outerStrokeWidth]="16"
+                [innerStrokeWidth]="8"
+                [outerStrokeColor]="'#78C000'"
+                [innerStrokeColor]="'#C7E596'"
+                [animation]="true"
+                [animationDuration]="300"
+            ></circle-progress>
+        </div>
     </div>
-</div>
+
+    </div>

@@ -1,43 +1,37 @@
 <div class="contenedor" id="contenedorportada">
-    <div id="perfil-portada">
-      <img src="https://www.canva.com/design/DAFg25aldYs/is4yQQJX8RCiUWhsoL5wrg/edit?utm_content=DAFg25aldYs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-       alt="imgportada"></div>
-    <div id="info">
-      <div class="info-img">
-        <img class=img-perfil 
-        [src]="miporfolio.company.img" 
-        alt="fotoperfil">
-        <div class="editarfoto"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
-      </div>
-      <div id=info-data>
-        <div>
-          <h1>{{miporfolio.name}}</h1>
-          <div id="info-cia">{{miporfolio.posicion}} </div>
-          <div class="info-contacto">
-            <span>{{miporfolio.localidad}}</span>
-            <span> <a href="#">Informacion de contacto </a></span>
-          </div>
-        </div>
-        <div>
-          <ul id="info-detalles">
-            <li><a href="https://unr.edu.ar/">
-                <img [src]="miporfolio.school.img" alt="UNR">
-                <h2> UNR</h2>
-              </a></li>
-            <li><a href="https://utn.edu.ar/es/">
-                <img src=" img/UTN.jpg" alt="UTN">
-                <h2> UTN</h2>
-              </a>
-            </li>
-          </ul>
+  <div id="perfil-portada">
+    <img src="../../../assets/data/Portada.jpg" alt="imgportada">
+  </div>
+  <div id="info">
+    <div class="info-img">
+      <img class=img-perfil src="../../../assets/data/Perfil.jpeg" alt="fotoperfil">
+      <div class="editarfoto"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+    </div>
+    <div id=info-data>
+      <div>
+        <h1>{{miporfolio.name}}</h1>
+        <div id="info-cia">{{miporfolio.posicion}} </div>
+        <div class="info-contacto">
+          <span>{{miporfolio.localidad}}</span>
+          <span> <a href="#">Informacion de contacto </a></span>
         </div>
       </div>
-      <div id="info-accion">
-       <app-botones
-       color="green"
-       text="Tareas"
-       (btnClick)="toggleAddTask()"
-       ></app-botones>
-        </div>
+      <div>
+        <ul id="info-detalles">
+          <li><a href="https://unr.edu.ar/">
+              <img [src]="miporfolio.school.img" alt="UNR">
+              <h2> UNR</h2>
+            </a></li>
+          <li><a href="https://utn.edu.ar/es/">
+              <img src=" img/UTN.jpg" alt="UTN">
+              <h2> UTN</h2>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="info-accion">
+      <app-botones color="green" text="Tareas" (btnClick)="toggleAddTask()"></app-botones>
     </div>
   </div>
+</div>
