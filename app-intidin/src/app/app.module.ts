@@ -26,7 +26,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
