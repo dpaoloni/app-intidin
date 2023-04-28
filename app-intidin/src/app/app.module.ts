@@ -11,6 +11,8 @@ import { LogrosComponent } from './componentes/logros/logros.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BotonesComponent } from './componentes/botones/botones.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { HeaderComponent } from './componentes/header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     ExperienciaYEducacionComponent,
     AptitudesComponent,
     LogrosComponent,
-    BotonesComponent
+    BotonesComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

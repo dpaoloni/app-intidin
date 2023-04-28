@@ -1,0 +1,24 @@
+
+.header{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+   margin-bottom: -30px;
+   margin-top: -30px;
+}    
+
+.redesociales  {
+    align-content: center;
+}
+ 
+
+
+img{
+    width: 48px;
+}
+
+.logo img{
+    width: 250px;
+}
