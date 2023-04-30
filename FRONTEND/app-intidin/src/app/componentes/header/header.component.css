@@ -11,7 +11,13 @@
 
 .redesociales  {
     align-content: center;
+    margin-right: 15PX;
+    margin:5px;
 }
+.redesociales img {
+    margin: 2px;
+}
+
  
 
 
@@ -22,3 +28,15 @@ img{
 .logo img{
     width: 250px;
 }
+
+.btn btn-outline-light {
+    width: 70px;
+}
+
+.btn{
+    border-width: medium;
+    margin-left: 2px;
+}
+
+/*Celu*/
+  
