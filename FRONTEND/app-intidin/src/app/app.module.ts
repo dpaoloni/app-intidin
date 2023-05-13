@@ -13,6 +13,7 @@ import { BotonesComponent } from './componentes/botones/botones.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HeaderComponent } from './componentes/header/header.component';
+import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HeaderComponent } from './componentes/header/header.component';
     LogrosComponent,
     BotonesComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    IniciarSesionComponent
   ],
   imports: [
     BrowserModule,
